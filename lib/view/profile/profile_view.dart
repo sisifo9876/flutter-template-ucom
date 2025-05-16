@@ -96,7 +96,7 @@ class ProfileView extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              "Daniel Travis",
+                              "Claudio Areco",
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyMedium!
@@ -118,7 +118,7 @@ class ProfileView extends StatelessWidget {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    "Member Gold ",
+                                    "Miembro de Oro",
                                     style: Theme.of(context)
                                         .textTheme
                                         .bodyMedium!
@@ -144,7 +144,7 @@ class ProfileView extends StatelessWidget {
                                 duration: const Duration(milliseconds: 500));
                           },
                           child: Text(
-                            "Edit Profile",
+                            "Editar perfil",
                             style: Theme.of(context)
                                 .textTheme
                                 .bodyMedium!
@@ -159,7 +159,7 @@ class ProfileView extends StatelessWidget {
                     ),
                     const SizedBox(height: 32),
                     Text(
-                      "Overview",
+                      "Resumen",
                       style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                             fontSize: 16,
                             fontWeight: FontWeight.w700,
@@ -170,15 +170,15 @@ class ProfileView extends StatelessWidget {
                       children: [
                         incomeContainer(
                           context,
-                          "Net Income",
-                          "\$4,500",
+                          "Ingresos netos",
+                          "\Gs.900.000",
                           DefaultImages.income,
                         ),
                         const SizedBox(width: 16),
                         incomeContainer(
                           context,
-                          "Expense",
-                          "\$1,691",
+                          "Gastos",
+                          "\Gs.600.454",
                           DefaultImages.outcome,
                         )
                       ],
@@ -201,7 +201,7 @@ class ProfileView extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Spend this week",
+                              "Gastado esta semana",
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyMedium!
@@ -237,19 +237,19 @@ class ProfileView extends StatelessWidget {
                                 ),
                                 const SizedBox(width: 16),
                                 Text(
-                                  "\$124",
+                                  "\Gs.86K",
                                   style: Theme.of(context)
                                       .textTheme
                                       .titleLarge!
                                       .copyWith(
-                                        fontSize: 18,
+                                        fontSize: 10,
                                         fontWeight: FontWeight.w800,
                                       ),
                                 ),
                               ],
                             ),
                             Text(
-                              "\$124 left to spend",
+                              "\Gs.86.000 sobra para gastar",
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyMedium!
@@ -287,7 +287,7 @@ class ProfileView extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(left: 16, right: 16),
                       child: Text(
-                        "You joined Finpay on September 2021. It’s been 1 month since then and our mission is still the same, help you better manage your finance.",
+                        "Usted se unió a Finpay en septiembre de 2021. Ha pasado 1 mes y muchos años desde entonces y nuestra misión sigue siendo la misma, ayudarte a gestionar mejor tus finanzas.",
                         style: Theme.of(context).textTheme.bodySmall!.copyWith(
                               fontSize: 12,
                               fontWeight: FontWeight.w400,

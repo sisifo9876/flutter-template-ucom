@@ -34,7 +34,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
           ),
         ),
         title: Text(
-          "My Account",
+          "Mi Cuenta",
           style: Theme.of(context).textTheme.titleLarge!.copyWith(
                 fontSize: 20,
                 fontWeight: FontWeight.w800,
@@ -85,7 +85,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                       ),
                       const SizedBox(height: 32),
                       CustomTextField(
-                        hintText: "Enter userName",
+                        hintText: "Ingrese usuario",
                         widget: Padding(
                           padding: const EdgeInsets.all(15.0),
                           child: SvgPicture.asset(
@@ -97,12 +97,12 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                             : const Color(0xffF9F9FA),
                         radius: 16,
                         textEditingController:
-                            TextEditingController(text: "Daniel Travis"),
+                            TextEditingController(text: "Claudio Areco"),
                         inputType: TextInputType.name,
                       ),
                       const SizedBox(height: 24),
                       CustomTextField(
-                        hintText: "Enter mobile number",
+                        hintText: "Ingrese número de celular",
                         widget: Padding(
                           padding: const EdgeInsets.all(15.0),
                           child: SvgPicture.asset(
@@ -114,12 +114,12 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                             : const Color(0xffF9F9FA),
                         radius: 16,
                         textEditingController:
-                            TextEditingController(text: "0812 345 6789"),
+                            TextEditingController(text: "0976-69432"),
                         inputType: TextInputType.number,
                       ),
                       const SizedBox(height: 24),
                       CustomTextField(
-                        hintText: "Enter password",
+                        hintText: "Ingrese contraseña",
                         widget: Padding(
                           padding: const EdgeInsets.all(15.0),
                           child: SvgPicture.asset(
@@ -143,7 +143,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                       ),
                       const SizedBox(height: 24),
                       CustomTextField(
-                        hintText: "Enter bank",
+                        hintText: "Ingrese Banco",
                         widget: Padding(
                           padding: const EdgeInsets.all(15.0),
                           child: SvgPicture.asset(
@@ -155,7 +155,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                             : const Color(0xffF9F9FA),
                         radius: 16,
                         textEditingController:
-                            TextEditingController(text: "Indonesian"),
+                            TextEditingController(text: "Indonesia"),
                         sufix: Padding(
                           padding: const EdgeInsets.only(top: 16, right: 15),
                           child: Text(
@@ -187,7 +187,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
               bottom: MediaQuery.of(context).padding.bottom + 14,
             ),
             child: CustomButton(
-              title: "Save changes",
+              title: "Guardar cambios",
               onTap: () {
                 Navigator.pop(context);
               },
